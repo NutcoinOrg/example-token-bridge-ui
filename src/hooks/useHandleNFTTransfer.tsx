@@ -80,6 +80,7 @@ async function evm(
       recipientAddress,
       overrides
     );
+    console.log("recipientChain:" + recipientChain);
     dispatch(
       setTransferTx({ id: receipt.transactionHash, block: receipt.blockNumber })
     );

@@ -111,6 +111,13 @@ export const METAMASK_CHAIN_PARAMETERS: {
     rpcUrls: ["https://goerli-rollup.arbitrum.io/rpc"],
     blockExplorerUrls: ["https://goerli.arbiscan.io"],
   },
+  421614: {
+    chainId: "0x66eee",
+    chainName: "Arbitrum Sepolia",
+    nativeCurrency: { name: "ETH", symbol: "ETH", decimals: 18 },
+    rpcUrls: ["https://sepolia-rollup.arbitrum.io/rpc"],
+    blockExplorerUrls: ["https://sepolia.arbiscan.io"],
+  },
   245022926: {
     chainId: "0xE9AC0CE",
     chainName: "remote proxy — solana devnet",

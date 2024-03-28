@@ -208,7 +208,7 @@ export default function SmartAddress({
         CLUSTER === "testnet" ? "testnet/" : ""
       }address/${useableAddress}`
     : chainId === CHAIN_ID_ARBITRUM
-    ? `https://${CLUSTER === "testnet" ? "goerli." : ""}arbiscan.io/${
+    ? `https://${CLUSTER === "testnet" ? "sepolia." : ""}arbiscan.io/${
         isAsset ? "token" : "address"
       }/${useableAddress}`
     : chainId === CHAIN_ID_APTOS

@@ -142,7 +142,7 @@ export default function ShowTx({
           CLUSTER === "testnet" ? "testnet/" : ""
         }tx/${tx?.id}`
       : chainId === CHAIN_ID_ARBITRUM
-      ? `https://${CLUSTER === "testnet" ? "goerli." : ""}arbiscan.io/tx/${
+      ? `https://${CLUSTER === "testnet" ? "sepolia." : ""}arbiscan.io/tx/${
           tx?.id
         }`
       : chainId === CHAIN_ID_APTOS
